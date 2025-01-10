@@ -13,7 +13,7 @@ header {
     align-items: center;
     background: linear-gradient(90deg, #44010c, #ee0047);
     color: white;
-    padding: 1em 3em;
+    padding: 1em 2em;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -22,7 +22,7 @@ height: 10em;
 }
 
 .titulo-cabecera img {
-height: 20em;
+height: 40em;
 }
 
 nav ul {
@@ -58,11 +58,10 @@ nav a:hover::after {
     transform-origin: left;
 }
 
-/* Estilos para la sección 'Sobre nosotros' */
 /* Estilos generales para la sección 'Sobre nosotros' */
 .about-us {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
     padding: 50px 20px;
     background-color: #fafafa;
@@ -98,7 +97,10 @@ nav a:hover::after {
     font-family: 'Arial', sans-serif;
     font-weight: 300;
     margin-bottom: 30px;
+    text-align: justify;
+    hyphens: auto; /* Permite la división automática de palabras */
 }
+
 
 .image-container {
     width: 40%;
@@ -108,8 +110,8 @@ nav a:hover::after {
 }
 
 .image-container img {
-    width: 90%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 30rem;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -141,6 +143,7 @@ nav a:hover::after {
     }
 }
 
+/*ULTIMO PODCAST*/
 .ultimopodcast{
     background-color: #f0f0f0;
     padding: 4em 2em;
@@ -149,6 +152,7 @@ nav a:hover::after {
     align-items: center;
     display: flexbox;
     padding-left: 75em;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Efecto de sombra más fuerte */
 }
 
 h2{
