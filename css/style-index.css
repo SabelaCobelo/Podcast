@@ -1,8 +1,6 @@
 /* General Reset */
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -14,7 +12,6 @@ header {
     background: linear-gradient(90deg, #44010c, #ee0047);
     color: white;
     padding: 1em 2em;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .logo-container img {
@@ -22,14 +19,15 @@ height: 10em;
 }
 
 .titulo-cabecera img {
-height: 40em;
+height: 20em;
+padding-left: 5em;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 2em;
-    padding-right: 10em;
+    padding-right: 5em;
 }
 
 nav a {
@@ -94,7 +92,7 @@ nav a:hover::after {
     font-size: 18px;
     line-height: 1.6;
     color: #555;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     margin-bottom: 30px;
     text-align: justify;
@@ -143,29 +141,82 @@ nav a:hover::after {
     }
 }
 
-/*ULTIMO PODCAST*/
-.ultimopodcast{
+/* ULTIMO PODCAST */
+/* ULTIMO PODCAST */
+.ultimopodcast {
     background-color: #f0f0f0;
-    padding: 4em 2em;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    align-items: center;
-    display: flexbox;
-    padding-left: 75em;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2); /* Efecto de sombra más fuerte */
+    padding: 3em 10%; /* Más espacio alrededor del contenido */
+    text-align: center;
+    box-sizing: border-box;
 }
 
-h2{
-    padding-bottom: 2em;
+.ultimopodcast h2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #333;
 }
+
+.episode1 {
+    background-color: #ffffff;
+    padding: 10em 15em; /* Espacio amplio dentro del artículo */
+    margin: 2em 0;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.episode1 img {
+    width: 300px;
+    margin-bottom: 1em;
+}
+
+.content h3 {
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 1.5em;
+}
+
+.listen-btn {
+    background-color: #44010c;
+    color: white;
+    padding: 0.8em 1.5em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    margin-top: 1em;
+    font-size: 1.2em;
+    color: #FFD700;
+}
+
 
 /* Podcasts Section */
-.podcasts {
+.hemeroteca {
     background-color: #f0f0f0;
     padding: 4em 2em;
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     align-items: center;
+}
+
+.hemeroteca h2{
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    padding-bottom: 1em;
+
 }
 
 .container-flex {
@@ -180,8 +231,8 @@ h2{
     padding: 1.5em;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 300px;
     text-align: center;
+    max-width: 300px;
 }
 
 .episode img {
@@ -224,87 +275,13 @@ h2{
     font-size: 1.2em;
 }
 
-
-
-/* Estilos para la sección del foro de la comunidad */
-.community-forum {
-    background-color: #f4f4f4;
-    padding: 40px 20px;
-    margin-top: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
-}
-
-.community-forum h2 {
-    text-align: center;
-    color: #222;
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.community-forum .comments {
-    margin-bottom: 30px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.comment-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.comment-form label {
-    font-size: 16px;
-    color: #333;
-}
-
-.comment-form input,
-.comment-form textarea {
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-.comment-form input:focus,
-.comment-form textarea:focus {
-    outline: none;
-    border-color: #44010c; /* Color del borde al enfocarse */
-}
-
-.comment-form button.submit-btn {
-    padding: 12px 20px;
-    background-color: #44010c;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.comment-form button.submit-btn:hover {
-    background-color: #44010c;
-}
-
-
-
-
 /* Footer Styling */
 footer {
     background: linear-gradient(90deg, #44010c, #ee0047);
     color: #fff;
     padding: 30px 10px;
     text-align: center;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer .social-media {
