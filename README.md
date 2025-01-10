@@ -1,8 +1,5 @@
 # Podcast Pixel & Wine 🍷✨
-
-![Logo](./img/3.png)
-
-**Pixel & Wine** es una plataforma donde el diseño se encuentra con la tecnología, y las ideas fluyen con la suavidad de una excelente copa de vino. Este proyecto es una experiencia creativa que combina arte, innovación y tecnología para ofrecer contenido inspirador a nuestra comunidad.
+**Pixel & Wine** es una web de podcasts donde el diseño se encuentra con la tecnología, y las ideas fluyen con la suavidad de una excelente copa de vino. Este proyecto es una experiencia creativa que combina arte, innovación y tecnología para ofrecer contenido inspirador a nuestra comunidad.
 
 ## 🚀 Características
 
