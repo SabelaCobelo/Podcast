@@ -30,3 +30,6 @@
 
 ¡Gracias por visitar **Pixel & Wine**! 🍷✨
 
+Puedes descargar la presentación del trabajo aquí:
+![Presentacion](Pixel&Wine_Presentacion.pdf)
+
